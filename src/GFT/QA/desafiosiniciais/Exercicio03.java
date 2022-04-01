@@ -28,7 +28,7 @@ public class Exercicio03 {
             X = leitor.nextInt();
             Y = leitor.nextInt();
             if (Y == 0    ) System.out.println("divisao impossivel");
-            else System.out.println((double)X / Y);
+            else System.out.printf("%.1f\n", (double)X / Y);
         }
     }
 }
